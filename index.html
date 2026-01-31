@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蓝白极简静态网页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "PingFang SC", "Microsoft Yahei", sans-serif;
+        }
+        /* 蓝白渐变极简背景 */
+        body {
+            background: linear-gradient(to bottom, #f8fbff 0%, #eaf5ff 100%);
+            min-height: 100vh;
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+        /* 居中容器 极简留白 */
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 2.5rem 2rem;
+            border-radius: 12px;
+            border: 1px solid #e6f0ff;
+        }
+        /* 淡蓝标题 极简排版 */
+        h1 {
+            color: #4a90e2;
+            font-size: 1.8rem;
+            font-weight: 500;
+            margin-bottom: 1.2rem;
+            padding-bottom: 0.8rem;
+            border-bottom: 1px solid #e6f0ff;
+        }
+        /* 正文文字 舒适阅读 */
+        p {
+            color: #333333;
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+        /* 极简淡蓝按钮 */
+        .btn {
+            display: inline-block;
+            padding: 0.7rem 1.5rem;
+            background: #e6f0ff;
+            color: #4a90e2;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .btn:hover {
+            background: #4a90e2;
+            color: #ffffff;
+        }
+        /* 底部极简标注 */
+        .footer {
+            margin-top: 2rem;
+            text-align: center;
+            color: #888888;
+            font-size: 0.85rem;
+        }
+        /* 响应式适配手机 */
+        @media (max-width: 480px) {
+            .container {
+                padding: 1.8rem 1.2rem;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>蓝白极简网页</h1>
+        <p>蓝白相间极简风，无多余装饰，干净清爽，适配电脑与手机。</p>
+        <p>整体色调柔和，留白充足，视觉舒适，可直接修改文字内容使用。</p>
+        <a href="#" class="btn">极简按钮</a>
+        <div class="footer">蓝白极简模板 © 2026</div>
+    </div>
+</body>
+</html>
